@@ -1,0 +1,207 @@
+#forum,
+#thread {
+	margin: 25px 150px;
+}
+
+a {
+	color: #3498db;
+}
+
+#forum-content,
+#top-user {
+	background: white;
+	border: 1px solid #3498db;
+	padding: 0 !important;
+	margin-bottom: 20px;
+}
+
+#hot-threads {
+	background: white;
+	border: 1px solid #3498db;
+	padding: 0 !important;
+}
+
+#forum-content h3,
+#top-user h3 {
+	background: #3498db;
+	color: white;
+	margin: 0 !important;
+	padding: 15px 20px;
+}
+
+.forum-list {
+	margin: 0 !important;
+	list-style: none;
+	padding: 0 !important;
+}
+
+.threads-list {
+	margin: 0 20px !important;
+	list-style: none;
+	padding: 0 !important;
+}
+
+.forum-list > li,
+.threads-list li {
+	border-bottom: 1px solid #ddd;
+}
+
+.forum-list li:last-child,
+.threads-list li:last-child {
+	border-bottom: none;
+}
+
+.forum-list > li > a {
+	padding: 10px 20px;
+	display: block;
+	color: #777;
+}
+
+.threads-list li a {
+	padding: 10px 0;
+	display: block;
+	color: #777;
+}
+
+.threads-list li a:hover {
+	color: #3498db;
+}
+
+#hot-threads h3 {
+	background: white;
+	color: #3498db;
+	border-bottom: 1px solid #3498db;
+	margin: 0 !important;
+	padding: 15px 0;
+	margin-left: 20px !important;
+	margin-right: 20px !important;
+}
+
+.network > a,
+.os > a,
+.web > a {
+	background-image: url("../img/arr-down.png");
+	background-repeat: no-repeat;
+	background-position: calc(100% - 10px) center;
+	background-size: 20px;
+}
+
+.network.open > a,
+.os.open > a,
+.web.open > a {
+	background-image: url("../img/arr-up.png") !important;
+}
+
+.network .network-list,
+.os .os-list,
+.web .web-list {
+	list-style: none;
+	padding-left: 0px;
+	margin-left: 20px;
+	border-left: 1px solid #ddd;
+	height: 0;
+	overflow: hidden;
+	transition: .15s all ease;
+}
+
+.network.open .network-list,
+.os.open .os-list,
+.web.open .web-list {
+	list-style: none;
+	padding-left: 0px;
+	margin-left: 20px;
+	border-left: 1px solid #ddd;
+	height: auto;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+
+.network .network-list > li > a,
+.os .os-list > li > a,
+.web .web-list > li > a {
+	padding: 5px 12.5px;
+	display: block;
+	color: #3498db;
+}
+
+.network .network-list > li > a:hover,
+.os .os-list > li > a:hover,
+.web .web-list > li > a:hover {
+	color: #2980b9;
+}
+
+.user-list {
+	list-style: none;
+	margin: 0 !important;
+	padding-left: 0;
+}
+
+.user-list li {
+	padding: 10px 20px;
+	border-bottom: 1px solid #ddd;
+}
+
+.user-list li:last-child {
+	border-bottom: none;
+}
+
+.user-list li img {
+	width: 30px;
+	border-radius: 50%;
+}
+
+.user-list li a {
+	margin-left: 5px;
+	color: #3498db;
+}
+
+/*	[2. Thread.html] */
+
+#thread {
+	background: white;
+	border: 1px solid #ddd;
+}
+
+#thread .user {
+	background: white;
+	padding: 25px 10px 5px 10px;
+	border-radius: 3px;
+}
+
+#thread .user img {
+	width: 100px;
+	border-radius: 50%;
+	margin: 0 auto;
+	display: block;
+}
+
+.user-detail {
+	padding: 0;
+	list-style: none;
+}
+
+.user-detail li {
+	padding: 7.5px 0;
+	border-bottom: 1px solid #eee;
+	text-align: center;
+}
+
+.user-detail li.online {
+	color: #2eec71;
+}
+
+.user-detail li:last-child {
+	border-bottom: none !important;
+}
+
+#thread .col-md-9 {
+	border-left: 1px solid #ddd;
+}
+
+.thread-content {
+	margin: 0 10px;
+}
+
+.thread-content img {
+	width: 100%;
+}
